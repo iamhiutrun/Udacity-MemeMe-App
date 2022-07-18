@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Zia-qz-s60">
-    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -14,25 +14,25 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MemeEditorViewController" customModule="MemeMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ByD-kH-cJ9">
-                                <rect key="frame" x="100" y="206" width="175" height="18.666666666666657"/>
+                                <rect key="frame" x="100" y="168" width="190" height="18.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kVJ-Dd-Ug5">
-                                <rect key="frame" x="100" y="575.33333333333337" width="175" height="18.666666666666629"/>
+                                <rect key="frame" x="100" y="645.66666666666663" width="190" height="18.333333333333371"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                             </textField>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NgD-BV-NVc">
-                                <rect key="frame" x="0.0" y="714" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="746" width="390" height="44"/>
                                 <items>
                                     <barButtonItem style="plain" id="QdK-vj-fXh">
                                         <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="zj3-1Q-9U0">
-                                            <rect key="frame" x="16" y="5" width="75" height="34.333333333333336"/>
+                                            <rect key="frame" x="16" y="4.6666666666666679" width="75" height="34.666666666666657"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <state key="normal" title="Button"/>
                                             <buttonConfiguration key="configuration" style="plain" title="Album"/>
@@ -43,7 +43,7 @@
                                     </barButtonItem>
                                     <barButtonItem style="plain" id="Tci-Af-uQt">
                                         <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="PPe-MX-lle">
-                                            <rect key="frame" x="284" y="5" width="75" height="34.333333333333336"/>
+                                            <rect key="frame" x="299" y="5" width="75" height="34.333333333333336"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <state key="normal" title="Button"/>
                                             <buttonConfiguration key="configuration" style="plain" image="camera.fill" catalog="system"/>
@@ -55,12 +55,12 @@
                                 </items>
                             </toolbar>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eOp-8a-leR">
-                                <rect key="frame" x="0.0" y="30" width="375" height="56"/>
+                                <rect key="frame" x="0.0" y="30" width="390" height="56"/>
                                 <items>
                                     <navigationItem id="VsO-EN-NGN">
                                         <barButtonItem key="leftBarButtonItem" style="plain" id="YuR-I2-DFK">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="yBK-j3-Ktg">
-                                                <rect key="frame" x="16" y="11" width="76.666666666666671" height="34.333333333333336"/>
+                                                <rect key="frame" x="16" y="10.666666666666668" width="76.666666666666671" height="34.666666666666657"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Cancel"/>
@@ -78,7 +78,7 @@
                                 </items>
                             </navigationBar>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wux-6H-Muf">
-                                <rect key="frame" x="0.0" y="86" width="375" height="628"/>
+                                <rect key="frame" x="0.0" y="86" width="390" height="660"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -87,13 +87,13 @@
                             <constraint firstItem="kVJ-Dd-Ug5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="29F-7y-pcD"/>
                             <constraint firstItem="Wux-6H-Muf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3SN-IQ-8Ab"/>
                             <constraint firstItem="NgD-BV-NVc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6E2-9Z-nKr"/>
-                            <constraint firstItem="NgD-BV-NVc" firstAttribute="top" secondItem="kVJ-Dd-Ug5" secondAttribute="bottom" constant="120" id="9Ai-xP-l8J"/>
+                            <constraint firstItem="NgD-BV-NVc" firstAttribute="top" secondItem="kVJ-Dd-Ug5" secondAttribute="bottom" constant="82" id="9Ai-xP-l8J"/>
                             <constraint firstItem="ByD-kH-cJ9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="Adp-Aa-vbE"/>
                             <constraint firstItem="ByD-kH-cJ9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="H2Q-zc-lt5"/>
                             <constraint firstItem="Wux-6H-Muf" firstAttribute="top" secondItem="eOp-8a-leR" secondAttribute="bottom" id="IGb-YK-UwF"/>
                             <constraint firstAttribute="bottom" secondItem="NgD-BV-NVc" secondAttribute="bottom" id="L9h-tw-Ydq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ByD-kH-cJ9" secondAttribute="trailing" constant="100" id="VFt-wa-fjF"/>
-                            <constraint firstItem="ByD-kH-cJ9" firstAttribute="top" secondItem="eOp-8a-leR" secondAttribute="bottom" constant="120" id="VRi-4i-V7O"/>
+                            <constraint firstItem="ByD-kH-cJ9" firstAttribute="top" secondItem="eOp-8a-leR" secondAttribute="bottom" constant="82" id="VRi-4i-V7O"/>
                             <constraint firstItem="kVJ-Dd-Ug5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="WV7-6P-b66"/>
                             <constraint firstItem="Wux-6H-Muf" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="WvC-In-XaN"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kVJ-Dd-Ug5" secondAttribute="trailing" constant="100" id="fzl-cA-wyH"/>
@@ -127,11 +127,11 @@
             <objects>
                 <viewController storyboardIdentifier="MemeDetailVC" id="ZoC-PJ-Oz8" customClass="MemeDetailViewController" customModule="MemeMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gRP-fk-Xxt">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="d5X-kH-Uro">
-                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                                <rect key="frame" x="0.0" y="44" width="390" height="766"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8YC-7t-5CW"/>
@@ -176,7 +176,7 @@
                     <tabBarItem key="tabBarItem" title="" image="square.grid.3x2.fill" catalog="system" id="IXc-rG-BdA"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="z7d-nd-PL1">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -193,11 +193,11 @@
             <objects>
                 <viewController id="QWn-ij-hhF" customClass="MemeCollectionViewController" customModule="MemeMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4cd-MF-zvH">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="PFz-fm-uYQ">
-                                <rect key="frame" x="0.0" y="88" width="375" height="724"/>
+                                <rect key="frame" x="0.0" y="88" width="390" height="756"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="9Ll-e9-WCl">
                                     <size key="itemSize" width="128" height="128"/>
@@ -248,7 +248,7 @@
                     <navigationItem key="navigationItem" title="Sent Memes" id="1gS-uO-9Do">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="odN-X5-0P3">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="02K-ab-NBm">
-                                <rect key="frame" x="276" y="5" width="83" height="34.333333333333336"/>
+                                <rect key="frame" x="291" y="5" width="83" height="34.333333333333336"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="plus" catalog="system"/>
@@ -274,7 +274,7 @@
                     <tabBarItem key="tabBarItem" title="" image="rectangle.grid.1x2.fill" catalog="system" id="iuj-HV-wcT"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Cp7-b7-Em2">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -291,25 +291,25 @@
             <objects>
                 <tableViewController id="9ib-SY-7Nk" customClass="MemeTableViewController" customModule="MemeMe" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="bV1-i1-ZiC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SentMemesTableVCCell" rowHeight="100" id="wyd-Rw-H0h" customClass="SentMemesTableViewCell" customModule="MemeMe" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="44.666666030883789" width="375" height="100"/>
+                                <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wyd-Rw-H0h" id="fuw-oD-zG8">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="390" height="100"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YgA-Y5-H03">
-                                            <rect key="frame" x="0.0" y="4" width="150" height="92"/>
+                                            <rect key="frame" x="4" y="4" width="150" height="92"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="150" id="QRA-LV-h0g"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bTx-4i-lO9">
-                                            <rect key="frame" x="195" y="39.666666666666664" width="104" height="21"/>
+                                            <rect key="frame" x="199" y="39.666666666666664" width="111" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -338,7 +338,7 @@
                     <navigationItem key="navigationItem" title="Sent Memes" id="7OG-jA-uXO">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="CnT-tE-1VX">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="UzM-Di-Gxx">
-                                <rect key="frame" x="276" y="5" width="83" height="34.333333333333336"/>
+                                <rect key="frame" x="291" y="5" width="83" height="34.333333333333336"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="plus" catalog="system"/>

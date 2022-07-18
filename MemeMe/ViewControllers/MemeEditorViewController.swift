@@ -167,6 +167,8 @@ func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMe
         ]
         textField.defaultTextAttributes = memeTextAttributes
         textField.textAlignment = .center
+        superview?.addSubview(textField)
+        textField.superview?.bringSubviewToFront()
         textField.delegate = self
     }
     
